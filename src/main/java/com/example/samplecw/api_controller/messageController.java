@@ -9,6 +9,6 @@ public class messageController {
 
     @GetMapping("/api/messege")
     public String message() {
-        return "Hello World from back end";
+        return "back end";
     }
 }
